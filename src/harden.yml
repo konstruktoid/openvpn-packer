@@ -29,6 +29,7 @@
         manage_timesyncd: false
         manage_resolved: false
         manage_ufw: false
+        # Use the COOL MOTD template
         motd_template: /tmp/motd
         ntp_servers:
           - 169.254.169.123
