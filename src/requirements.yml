@@ -19,9 +19,8 @@ roles:
   - name: freeipa_client
     src: https://github.com/cisagov/ansible-role-freeipa-client
   - name: konstruktoid.hardening
+    src: https://github.com/konstruktoid/ansible-role-hardening
     version: v2.0.4
-    src: https://github.com/konstruktoid/ansible-role-hardening.git
-    scm: git
   - name: htop
     src: https://github.com/cisagov/ansible-role-htop
   - name: nvme
