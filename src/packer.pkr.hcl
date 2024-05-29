@@ -133,6 +133,12 @@ build {
   sources = ["source.amazon-ebs.openvpn"]
 
   provisioner "ansible" {
+    playbook_file = "src/upgrade.yml"
+    use_proxy     = false
+    use_sftp      = true
+  }
+
+  provisioner "ansible" {
     playbook_file = "src/python.yml"
     use_proxy     = false
     use_sftp      = true
