@@ -59,11 +59,6 @@
           - auditd
           - cracklib-runtime
           - libpam-pwquality
-        packages_redhat:
-          - audit
-          - cracklib
-          - libpwquality
-          - python3-dnf-plugin-post-transaction-actions
         packages_ubuntu: []
         pass_max_days: 365
         pass_min_days: 7
