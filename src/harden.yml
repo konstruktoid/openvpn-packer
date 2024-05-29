@@ -33,6 +33,7 @@
         # Use the COOL MOTD template
         motd_template: /tmp/motd
         ntp_servers:
+          # AWS-provided NTP server
           - 169.254.169.123
         sshd_admin_net:
           - "0.0.0.0/0"
