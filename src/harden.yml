@@ -20,7 +20,7 @@
       ansible.builtin.import_role:  # noqa var-naming[no-role-prefix]
         name: konstruktoid.hardening
       vars:
-        automatic_updates: true
+        automatic_updates: false
         fallback_ntp:
           # AWS-provided NTP server
           - 169.254.169.123
