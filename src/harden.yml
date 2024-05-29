@@ -64,6 +64,7 @@
         pass_min_days: 7
         sshd_max_sessions: 4
         suid_sgid_permissions: false
+        # Necessary for FreeIPA
         umask_value: "027"
     - name: Delete local copies of issue and motd files
       ansible.builtin.file:
