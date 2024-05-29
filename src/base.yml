@@ -4,6 +4,9 @@
   become: true
   become_method: ansible.builtin.sudo
   tasks:
+    - name: Install and configure automated security updates
+      ansible.builtin.include_role:
+        name: automated_security_updates
     - name: Install and configure login banner
       ansible.builtin.include_role:
         name: banner

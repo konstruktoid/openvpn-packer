@@ -4,6 +4,8 @@ collections:
 roles:
   - name: amazon_ssm_agent
     src: https://github.com/cisagov/ansible-role-amazon-ssm-agent
+  - name: automated_security_updates
+    src: https://github.com/cisagov/ansible-role-automated-security-updates
   - name: banner
     src: https://github.com/cisagov/ansible-role-banner
   - name: cdm_nessus_agent
