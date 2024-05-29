@@ -23,6 +23,7 @@
         automatic_updates: true
         fallback_ntp:
           - 169.254.169.123
+        # Use the COOL issue template
         issue_template: /tmp/issue
         journald_storage: persistent
         manage_timesyncd: false
